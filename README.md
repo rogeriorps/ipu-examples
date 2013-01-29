@@ -10,6 +10,7 @@ To crosscompile the ipu-examples, set the environment variables:
 
 $ export TOOLCHAIN=/opt/freescale/usr/local/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi  
 $ export ROOTFS=your_rootfs_folder  
+$ export CROSS_COMPILE=arm-none-linux-gnueabi-
 
 Notes:  
 * your_rootfs_folder is the locations where your i.MX root file system is  
@@ -54,5 +55,5 @@ AUTHOR:
 =======
 
 Rogerio Pimentel  
-rogerio.pimentel@freescale.com  
+rpimentel.silva@gmail.com  
 
