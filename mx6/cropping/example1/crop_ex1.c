@@ -102,7 +102,6 @@ int main (int argc, char *argv[])
 	task.output.height  = 768;
 	task.output.format  = v4l2_fourcc('R', 'G', 'B', 'P');
 
-	task.output.rotate = 1;
 	task.output.crop.pos.x = 300;
 	task.output.crop.pos.y = 300;
 	task.output.crop.w = 300;
