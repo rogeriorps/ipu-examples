@@ -8,13 +8,14 @@ Cross-compiling:
 
 To crosscompile the ipu-examples, set the environment variables:
 
-$ export TOOLCHAIN=/opt/freescale/usr/local/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi  
+$ export PATH=$PATH:/opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/  
+$ export TOOLCHAIN=/opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/  
 $ export ROOTFS=your_rootfs_folder  
 $ export CROSS_COMPILE=arm-none-linux-gnueabi-
 
 Notes:  
 * your_rootfs_folder is the locations where your i.MX root file system is  
-* Usually the TOOLCHAIN is loated at /opt/freescale/usr/local/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi  
+* Usually the TOOLCHAIN is loated at /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/  
 it may vary according to the tool you have instaled on your machine  
 
 Now, just use make to build.
@@ -41,7 +42,6 @@ csc             : Color Space Conversion examples
 deinterlacing   : Video de-interlace examples  
 doc             : Documentation. Details about IPU and code implementation  
 others          : Mix of various common use cases  
-panning         : Panning images examples  
 resizing        : Resize examples  
 rotation        : Rotation examples  
 
