@@ -18,11 +18,11 @@ it may vary according to the tool you have instaled on your machine
 
 Now, use configure and make to build.  
   
-$ ./configure --host=arm-none-linux-gnueabi --target=<target> --prefix=<prefix>  
+$ ./configure --host=arm-none-linux-gnueabi --target=\<target> --prefix=\<prefix>  
 
 Where:  
-<target>: mx5 or mx6  
-<prefix>: local where your i.MX rootfs is  
+\<target>: mx5 or mx6  
+\<prefix>: local where your i.MX rootfs is  
 
 Available examples:
 ===================
