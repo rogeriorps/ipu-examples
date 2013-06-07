@@ -10,17 +10,19 @@ To crosscompile the ipu-examples, set the environment variables:
 
 $ export PATH=$PATH:/opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/  
 $ export TOOLCHAIN=/opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/  
-$ export ROOTFS=your_rootfs_folder  
 $ export CROSS_COMPILE=arm-none-linux-gnueabi-
 
 Notes:  
-* your_rootfs_folder is the locations where your i.MX root file system is  
 * Usually the TOOLCHAIN is loated at /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/  
 it may vary according to the tool you have instaled on your machine  
 
-Now, just use make to build.
+Now, use configure and make to build.  
+  
+$ ./configure --host=arm-none-linux-gnueabi --target=<target> --prefix=<prefix>  
 
-$ make
+Where:  
+<target>: mx5 or mx6  
+<prefix>: local where your i.MX rootfs is  
 
 Available examples:
 ===================
