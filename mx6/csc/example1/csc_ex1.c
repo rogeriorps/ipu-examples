@@ -149,6 +149,10 @@ int main (int argc, char *argv[])
 	outpaddr = fb_fix.smem_start;	
 	task.output.paddr = outpaddr;
 
+	// Calculate the output size
+	osize = task.output.width * task.output.height
+		* fmt_to_bpp(task.output.format)/8;
+
 	// Create memory map for output image
 	outbuf = mmap(0, osize, PROT_READ | PROT_WRITE,
 	MAP_SHARED, fd_ipu, task.output.paddr);
