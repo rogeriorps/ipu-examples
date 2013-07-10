@@ -23,6 +23,8 @@ $ ./configure --host=arm-none-linux-gnueabi --target=\<target> --prefix=\<prefix
 Where:  
 \<target>: mx5 or mx6  
 \<prefix>: local where your i.MX rootfs is  
+  
+$ make  
 
 Available examples:
 ===================
