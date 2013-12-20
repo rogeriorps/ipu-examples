@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 {
 	int fd_fb = 0;
 	struct mxcfb_gamma fb_gamma;
-	int blank, i;
+	int blank, i, ret;
 	int constk[16], slopek[16];
 
 	int gin[16] = {0,2,4,8,16,32,64,96,128,160,192,224,256,288,320,352};
