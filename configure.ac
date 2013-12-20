@@ -38,7 +38,8 @@ AC_CONFIG_FILES([Makefile
                 mx6/csc/example1/Makefile
                 mx6/deinterlacing/example1/Makefile
                 mx6/resizing/example1/Makefile
-                mx6/rotation/example1/Makefile])
+                mx6/rotation/example1/Makefile
+		mx6/basic/example1/Makefile])
 
 if test "x$target" = "x"; then
 	AC_MSG_NOTICE([==> Set target option: --target=mx5 or mx6])

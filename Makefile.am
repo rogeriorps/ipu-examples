@@ -6,7 +6,8 @@ SUBDIRS_MX5 = mx5/basic/example1 \
 endif
 
 if TARGET_MX6 
-SUBDIRS_MX6 = mx6/alphablending/example1 \
+SUBDIRS_MX6 = mx6/basic/example1 \
+	mx6/alphablending/example1 \
 	mx6/alphablending/example2 \
 	mx6/cropping/example1 \
 	mx6/csc/example1 \

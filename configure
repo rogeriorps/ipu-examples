@@ -4348,7 +4348,7 @@ else
 fi
 
 
-ac_config_files="$ac_config_files Makefile mx5/basic/example1/Makefile mx5/rotation/example1/Makefile mx6/alphablending/example1/Makefile mx6/alphablending/example2/Makefile mx6/cropping/example1/Makefile mx6/csc/example1/Makefile mx6/deinterlacing/example1/Makefile mx6/resizing/example1/Makefile mx6/rotation/example1/Makefile"
+ac_config_files="$ac_config_files Makefile mx5/basic/example1/Makefile mx5/rotation/example1/Makefile mx6/alphablending/example1/Makefile mx6/alphablending/example2/Makefile mx6/cropping/example1/Makefile mx6/csc/example1/Makefile mx6/deinterlacing/example1/Makefile mx6/resizing/example1/Makefile mx6/rotation/example1/Makefile mx6/basic/example1/Makefile"
 
 
 if test "x$target" = "x"; then
@@ -5122,6 +5122,7 @@ do
     "mx6/deinterlacing/example1/Makefile") CONFIG_FILES="$CONFIG_FILES mx6/deinterlacing/example1/Makefile" ;;
     "mx6/resizing/example1/Makefile") CONFIG_FILES="$CONFIG_FILES mx6/resizing/example1/Makefile" ;;
     "mx6/rotation/example1/Makefile") CONFIG_FILES="$CONFIG_FILES mx6/rotation/example1/Makefile" ;;
+    "mx6/basic/example1/Makefile") CONFIG_FILES="$CONFIG_FILES mx6/basic/example1/Makefile" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5;;
   esac

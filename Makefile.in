@@ -83,10 +83,10 @@ AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \
 ETAGS = etags
 CTAGS = ctags
 DIST_SUBDIRS = mx5/basic/example1 mx5/rotation/example1 \
-	mx6/alphablending/example1 mx6/alphablending/example2 \
-	mx6/cropping/example1 mx6/csc/example1 \
-	mx6/deinterlacing/example1 mx6/resizing/example1 \
-	mx6/rotation/example1
+	mx6/basic/example1 mx6/alphablending/example1 \
+	mx6/alphablending/example2 mx6/cropping/example1 \
+	mx6/csc/example1 mx6/deinterlacing/example1 \
+	mx6/resizing/example1 mx6/rotation/example1
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -217,7 +217,8 @@ AUTOMAKE_OPTIONS = foreign
 @TARGET_MX5_TRUE@SUBDIRS_MX5 = mx5/basic/example1 \
 @TARGET_MX5_TRUE@	mx5/rotation/example1
 
-@TARGET_MX6_TRUE@SUBDIRS_MX6 = mx6/alphablending/example1 \
+@TARGET_MX6_TRUE@SUBDIRS_MX6 = mx6/basic/example1 \
+@TARGET_MX6_TRUE@	mx6/alphablending/example1 \
 @TARGET_MX6_TRUE@	mx6/alphablending/example2 \
 @TARGET_MX6_TRUE@	mx6/cropping/example1 \
 @TARGET_MX6_TRUE@	mx6/csc/example1 \
