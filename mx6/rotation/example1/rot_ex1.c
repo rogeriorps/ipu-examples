@@ -93,13 +93,10 @@ int main(int argc, char *argv[])
 	int fd_ipu = 0, fd_fb = 0;
 	int isize = 0;
 	void *inbuf = NULL;
-	void *outbuf = NULL;
 	dma_addr_t outpaddr[FB_BUFS];
 	struct fb_var_screeninfo fb_var;
 	struct fb_fix_screeninfo fb_fix;
 	int blank;
-	char fb_dev[] = "/dev/fb0";
-	char fb_name[16];
 	size_t filesize;
 	void * raw_image, * buf;
 
