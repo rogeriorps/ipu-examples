@@ -1,22 +1,8 @@
-#                                               -*- Autoconf -*-
-# Process this file with autoconf to produce a configure script.
-
-AC_PREREQ([2.69])
-AC_INIT([ipu-examples], [0.1], [rpimentel.silva@gmail.com])
-AC_CONFIG_SRCDIR([mx6/alphablending/example1/alpha_ex1.c])
-S
-#AC_CONFIG_HEADERS([config.h])
-AM_INIT_AUTOMAKE([ipu-examples], [0.1])
-
-# Checks for programs.
+AC_INIT([ipu-examples], [0.1], [rogerio.pimentel@freescale.com])
+AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 AC_PROG_CC
-AC_PROG_CPP
-
-# Checks for header files.
+AC_CONFIG_HEADERS([config.h])
 AC_CHECK_HEADERS([fcntl.h stdint.h stdlib.h string.h sys/ioctl.h unistd.h])
-
-# Checks for typedefs, structures, and compiler characteristics.
-AC_TYPE_SIZE_T
 
 # Checks for library functions.
 AC_FUNC_MMAP

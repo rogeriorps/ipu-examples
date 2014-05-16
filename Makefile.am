@@ -18,6 +18,3 @@ endif
 
 SUBDIRS = $(SUBDIRS_MX5) $(SUBDIRS_MX6)
 
-CFLAGS=-Wall -I $(prefix)/usr/include -I $(prefix)/usr/src/linux/include
-LDFLAGS=-L $(prefix)/usr/lib -lipu -lm -lrt
-
