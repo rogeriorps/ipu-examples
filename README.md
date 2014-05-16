@@ -1,10 +1,34 @@
 ipu-examples
 ============
 
-IPU example codes for i.MX5 and i.MX6 families
+IPU example codes for i.MX5 and i.MX6 families  
 
-Cross-compiling:
-================
+Cross-compiling using Yocto toolchain:
+======================================
+
+Install the Yocto SDK following the Yocto trainnign topics below:  
+
+https://community.freescale.com/docs/DOC-94256  
+https://community.freescale.com/docs/DOC-94389  
+  
+Export the Yocto variable running the SDK environment setup (don't forget the "source" command")  
+The toolchain version will change according to it's version. It's usually installed at /opt/poky/......  
+
+$ source /opt/poky/1.6+snapshot/environment-setup-cortexa9hf-vfp-neon-poky-linux-gnueabi  
+
+Now, use configure and make to build.  
+
+$ ./configure --host=arm-none-linux-gnueabi --target=\<target> --prefix=\<prefix>  
+
+Where:  
+\<target>: mx5 or mx6  
+\<prefix>: local where your i.MX rootfs is  
+  
+$ make  
+
+
+Cross-compiling using LTIB toolchain:
+=====================================
 
 To crosscompile the ipu-examples, set the environment variables:
 
