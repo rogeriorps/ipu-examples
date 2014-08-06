@@ -101,7 +101,7 @@ int main (int argc, char *argv[])
 	task.output.format  = v4l2_fourcc('R', 'G', 'B', '3');
  
  	// Open the raw image
-	if ((file_in = fopen("../../../images/freescale_1024x768.raw", "rb")) < 0) {
+	if ((file_in = fopen("../../../images/freescale_1024x768_rgb565.raw", "rb")) < 0) {
 		printf("Unable to open freescale_1024x768.raw\n");
 		ret = -1;
 		goto done;
