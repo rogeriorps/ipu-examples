@@ -76,8 +76,8 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-bin_PROGRAMS = basic_ex1$(EXEEXT)
-subdir = mx5/basic/example1
+bin_PROGRAMS = framebuffer_ex1$(EXEEXT)
+subdir = mx5/framebuffer/example1
 DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/depcomp
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
@@ -90,9 +90,9 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
-am_basic_ex1_OBJECTS = basic_ex1.$(OBJEXT)
-basic_ex1_OBJECTS = $(am_basic_ex1_OBJECTS)
-basic_ex1_LDADD = $(LDADD)
+am_framebuffer_ex1_OBJECTS = framebuffer_ex1.$(OBJEXT)
+framebuffer_ex1_OBJECTS = $(am_framebuffer_ex1_OBJECTS)
+framebuffer_ex1_LDADD = $(LDADD)
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
 am__v_P_0 = false
@@ -121,8 +121,8 @@ AM_V_CCLD = $(am__v_CCLD_@AM_V@)
 am__v_CCLD_ = $(am__v_CCLD_@AM_DEFAULT_V@)
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(basic_ex1_SOURCES)
-DIST_SOURCES = $(basic_ex1_SOURCES)
+SOURCES = $(framebuffer_ex1_SOURCES)
+DIST_SOURCES = $(framebuffer_ex1_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -235,7 +235,7 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-basic_ex1_SOURCES = basic_ex1.c
+framebuffer_ex1_SOURCES = framebuffer_ex1.c
 AM_CPPFLAGS = -I $(prefix)/usr/src/kernel/include/uapi -I $(prefix)/usr/src/kernel/include/
 AM_LDFLAGS = -L $(prefix)/usr/lib -lipu -lm -lrt
 all: all-am
@@ -251,9 +251,9 @@ $(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
 	      exit 1;; \
 	  esac; \
 	done; \
-	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign mx5/basic/example1/Makefile'; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign mx5/framebuffer/example1/Makefile'; \
 	$(am__cd) $(top_srcdir) && \
-	  $(AUTOMAKE) --foreign mx5/basic/example1/Makefile
+	  $(AUTOMAKE) --foreign mx5/framebuffer/example1/Makefile
 .PRECIOUS: Makefile
 Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	@case '$?' in \
@@ -315,9 +315,9 @@ uninstall-binPROGRAMS:
 clean-binPROGRAMS:
 	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
 
-basic_ex1$(EXEEXT): $(basic_ex1_OBJECTS) $(basic_ex1_DEPENDENCIES) $(EXTRA_basic_ex1_DEPENDENCIES) 
-	@rm -f basic_ex1$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(basic_ex1_OBJECTS) $(basic_ex1_LDADD) $(LIBS)
+framebuffer_ex1$(EXEEXT): $(framebuffer_ex1_OBJECTS) $(framebuffer_ex1_DEPENDENCIES) $(EXTRA_framebuffer_ex1_DEPENDENCIES) 
+	@rm -f framebuffer_ex1$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(framebuffer_ex1_OBJECTS) $(framebuffer_ex1_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
@@ -325,7 +325,7 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/basic_ex1.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/framebuffer_ex1.Po@am__quote@
 
 .c.o:
 @am__fastdepCC_TRUE@	$(AM_V_CC)$(COMPILE) -MT $@ -MD -MP -MF $(DEPDIR)/$*.Tpo -c -o $@ $<

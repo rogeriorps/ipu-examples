@@ -145,8 +145,8 @@ am__define_uniq_tagged_files = \
 ETAGS = etags
 CTAGS = ctags
 CSCOPE = cscope
-DIST_SUBDIRS = mx5/basic/example1 mx5/rotation/example1 \
-	mx6/basic/example1 mx6/alphablending/example1 \
+DIST_SUBDIRS = mx5/framebuffer/example1 mx5/rotation/example1 \
+	mx6/framebuffer/example1 mx6/alphablending/example1 \
 	mx6/alphablending/example2 mx6/cropping/example1 \
 	mx6/csc/example1 mx6/deinterlacing/example1 \
 	mx6/resizing/example1 mx6/rotation/example1
@@ -280,10 +280,10 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 AUTOMAKE_OPTIONS = foreign
-@TARGET_MX5_TRUE@SUBDIRS_MX5 = mx5/basic/example1 \
+@TARGET_MX5_TRUE@SUBDIRS_MX5 = mx5/framebuffer/example1 \
 @TARGET_MX5_TRUE@	mx5/rotation/example1
 
-@TARGET_MX6_TRUE@SUBDIRS_MX6 = mx6/basic/example1 \
+@TARGET_MX6_TRUE@SUBDIRS_MX6 = mx6/framebuffer/example1 \
 @TARGET_MX6_TRUE@	mx6/alphablending/example1 \
 @TARGET_MX6_TRUE@	mx6/alphablending/example2 \
 @TARGET_MX6_TRUE@	mx6/cropping/example1 \
