@@ -16,7 +16,7 @@ AM_CONDITIONAL(TARGET_MX5, test "$target" = mx5)
 AM_CONDITIONAL(TARGET_MX6, test "$target" = mx6)
 
 AC_CONFIG_FILES([Makefile
-		mx5/basic/example1/Makefile
+		mx5/framebuffer/example1/Makefile
       		mx5/rotation/example1/Makefile
 		mx6/alphablending/example1/Makefile
                	mx6/alphablending/example2/Makefile
@@ -25,7 +25,7 @@ AC_CONFIG_FILES([Makefile
                 mx6/deinterlacing/example1/Makefile
                 mx6/resizing/example1/Makefile
                 mx6/rotation/example1/Makefile
-		mx6/basic/example1/Makefile])
+		mx6/framebuffer/example1/Makefile])
 
 if test "x$target" = "x"; then
 	AC_MSG_NOTICE([==> Set target option: --target=mx5 or mx6])
