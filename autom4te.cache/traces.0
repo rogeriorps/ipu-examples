@@ -253,7 +253,7 @@ m4trace:configure.ac:9: -1- AH_OUTPUT([HAVE_MEMSET], [/* Define to 1 if you have
 m4trace:configure.ac:9: -1- AH_OUTPUT([HAVE_MUNMAP], [/* Define to 1 if you have the `munmap\' function. */
 @%:@undef HAVE_MUNMAP])
 m4trace:configure.ac:18: -1- AC_CONFIG_FILES([Makefile
-		mx5/basic/example1/Makefile
+		mx5/framebuffer/example1/Makefile
       		mx5/rotation/example1/Makefile
 		mx6/alphablending/example1/Makefile
                	mx6/alphablending/example2/Makefile
@@ -262,7 +262,7 @@ m4trace:configure.ac:18: -1- AC_CONFIG_FILES([Makefile
                 mx6/deinterlacing/example1/Makefile
                 mx6/resizing/example1/Makefile
                 mx6/rotation/example1/Makefile
-		mx6/basic/example1/Makefile])
+		mx6/framebuffer/example1/Makefile])
 m4trace:configure.ac:45: -1- AC_SUBST([LIB@&t@OBJS], [$ac_libobjs])
 m4trace:configure.ac:45: -1- AC_SUBST_TRACE([LIB@&t@OBJS])
 m4trace:configure.ac:45: -1- m4_pattern_allow([^LIB@&t@OBJS$])
