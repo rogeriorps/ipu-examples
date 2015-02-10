@@ -1,3 +1,0 @@
-bin_PROGRAMS = res_ex1
-res_ex1_SOURCES = res_ex1.c
-AM_CPPFLAGS = -I $(prefix)/usr/src/kernel/include/uapi -I $(prefix)/usr/src/kernel/include/

@@ -1,17 +1,8 @@
-AC_INIT([ipu-examples], [0.1], [rogerio.pimentel@freescale.com])
-AM_INIT_AUTOMAKE([-Wall -Werror foreign])
-AC_PROG_CC
-AC_CONFIG_HEADERS([config.h])
-AC_CHECK_HEADERS([fcntl.h stdint.h stdlib.h string.h sys/ioctl.h unistd.h])
-
-# Checks for library functions.
-AC_FUNC_MMAP
-AC_CHECK_FUNCS([gettimeofday memset munmap])
+AC_INIT([ipu-examples], [1.0])
 
 ##########################################################################
 # Checks for programs needed for tests
 ##########################################################################
-
 AM_CONDITIONAL(TARGET_MX5, test "$target" = mx5)
 AM_CONDITIONAL(TARGET_MX6, test "$target" = mx6)
 
@@ -43,3 +34,4 @@ else
 fi
 
 AC_OUTPUT
+
