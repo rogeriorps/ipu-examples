@@ -99,6 +99,8 @@ int main(int argc, char *argv[])
 	int blank;
 	size_t filesize;
 	void * raw_image, * buf;
+	struct timeval begin, end;
+	int sec, usec, run_time;
 
 	// Open the raw image
 	if ((file_in = open("../../../images/freescale_1024x768_rgb565.raw", O_RDWR, 0)) < 0) {
@@ -226,11 +228,26 @@ int main(int argc, char *argv[])
 
 	for (i=1; i < 8 ; i++) {
 		t->output.rotate = i;
+
+		gettimeofday(&begin, NULL);
+
 		ret = ioctl(fd_ipu, IPU_QUEUE_TASK, t);
 		if (ret < 0) {
 			printf("ioct IPU_QUEUE_TASK fail\n");
 			goto done;
 		}
+
+		gettimeofday(&end, NULL);
+		sec = end.tv_sec - begin.tv_sec;
+		usec = end.tv_usec - begin.tv_usec;
+		if (usec < 0) {
+			sec--;
+			usec = usec + 1000000;
+		}
+		run_time = (sec * 1000000) + usec;
+
+	 	printf("Rotation time: %d usecs\n", run_time);
+
 		sleep(2); // Show each image for 2 seconds
 	}
 
