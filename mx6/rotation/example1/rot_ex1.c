@@ -101,8 +101,8 @@ int main(int argc, char *argv[])
 	void * raw_image, * buf;
 
 	// Open the raw image
-	if ((file_in = open("../../../images/freescale_1024x768.raw", O_RDWR, 0)) < 0) {
-		printf("Unable to open freescale_1024x768.raw\n");
+	if ((file_in = open("../../../images/freescale_1024x768_rgb565.raw", O_RDWR, 0)) < 0) {
+		printf("Unable to open freescale_1024x768_rgb565.raw\n");
 		ret = -1;
 		goto done;
 	}
