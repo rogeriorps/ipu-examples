@@ -1,1 +1,292 @@
-# dummy
+res_ex1.o: res_ex1.c \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdc-predef.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdio.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/features.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/cdefs.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/wordsize.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/gnu/stubs.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/gnu/stubs-hard.h \
+ /opt/poky/1.6.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.8.2/include/stddef.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/types.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/typesizes.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/libio.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/_G_config.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/wchar.h \
+ /opt/poky/1.6.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.8.2/include/stdarg.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stdio_lim.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sys_errlist.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stdio.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/fcntl.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/fcntl.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/fcntl-linux.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/time.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stat.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdlib.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/waitflags.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/waitstatus.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/endian.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/endian.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/byteswap.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/byteswap-16.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/types.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/select.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/select.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigset.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/time.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/sysmacros.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/pthreadtypes.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/alloca.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stdlib-bsearch.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stdlib-float.h \
+ /opt/poky/1.6.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.8.2/include/stdint.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdint.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/wchar.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/unistd.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/posix_opt.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/environments.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/confname.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/getopt.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/string.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/xlocale.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/string.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/string2.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/signal.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/signum.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/siginfo.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigaction.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigcontext.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/sigcontext.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigstack.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/ucontext.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigthread.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/errno.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/errno.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/errno.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/errno.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/errno.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/errno-base.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/ioctl.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/ioctls.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/ioctls.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/ioctls.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/ioctl.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/ioctl.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/ioctl.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/ioctl-types.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/ttydefaults.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/mman.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/mman.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/mman-linux.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/stat.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/mxcfb.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/fb.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/types.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/types.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/int-ll64.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/bitsperlong.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/bitsperlong.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/posix_types.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/stddef.h \
+ /tftpboot/rootfs/usr/src/kernel/include/linux/compiler.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/posix_types.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/posix_types.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/i2c.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/ipu.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/videodev2.h \
+ /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/time.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/v4l2-common.h \
+ /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/v4l2-controls.h
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdc-predef.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdio.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/features.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/gnu/stubs-hard.h:
+
+/opt/poky/1.6.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.8.2/include/stddef.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/types.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/libio.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/_G_config.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/wchar.h:
+
+/opt/poky/1.6.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.8.2/include/stdarg.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stdio_lim.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sys_errlist.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stdio.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/fcntl.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/fcntl.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/fcntl-linux.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/time.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stat.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdlib.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/waitflags.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/waitstatus.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/endian.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/endian.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/byteswap.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/byteswap-16.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/types.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/select.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/select.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigset.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/time.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/sysmacros.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/pthreadtypes.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/alloca.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stdlib-bsearch.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/stdlib-float.h:
+
+/opt/poky/1.6.1/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/4.8.2/include/stdint.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdint.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/wchar.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/unistd.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/posix_opt.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/environments.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/confname.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/getopt.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/string.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/xlocale.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/string.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/string2.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/signal.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/signum.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/siginfo.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigaction.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigcontext.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/sigcontext.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigstack.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/ucontext.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigthread.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/errno.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/errno.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/errno.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/errno.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/errno.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/errno-base.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/ioctl.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/ioctls.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/ioctls.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/ioctls.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/ioctl.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/ioctl.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/ioctl.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/ioctl-types.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/ttydefaults.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/mman.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/mman.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/mman-linux.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/stat.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/mxcfb.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/fb.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/types.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/types.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/int-ll64.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/bitsperlong.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/bitsperlong.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/posix_types.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/stddef.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/linux/compiler.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/posix_types.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/posix_types.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/i2c.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/ipu.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/videodev2.h:
+
+/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/time.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/v4l2-common.h:
+
+/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/v4l2-controls.h:

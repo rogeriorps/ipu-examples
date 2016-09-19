@@ -30,7 +30,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <linux/mxcfb.h>
-#include "basic_ex1.h"
+#include "framebuffer_ex1.h"
 
 int main(int argc, char *argv[])
 {

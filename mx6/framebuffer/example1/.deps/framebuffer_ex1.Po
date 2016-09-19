@@ -1,4 +1,4 @@
-csc_ex1.o: csc_ex1.c \
+framebuffer_ex1.o: framebuffer_ex1.c \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdc-predef.h \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/stdio.h \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/features.h \
@@ -59,12 +59,6 @@ csc_ex1.o: csc_ex1.c \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigstack.h \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/ucontext.h \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigthread.h \
- /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/errno.h \
- /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/errno.h \
- /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/errno.h \
- /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/errno.h \
- /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/errno.h \
- /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/errno-base.h \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/ioctl.h \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/ioctls.h \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/ioctls.h \
@@ -91,6 +85,7 @@ csc_ex1.o: csc_ex1.c \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/posix_types.h \
  /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/posix_types.h \
  /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/i2c.h \
+ framebuffer_ex1.h \
  /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/ipu.h \
  /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/videodev2.h \
  /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/time.h \
@@ -217,18 +212,6 @@ csc_ex1.o: csc_ex1.c \
 
 /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/sigthread.h:
 
-/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/errno.h:
-
-/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/errno.h:
-
-/tftpboot/rootfs/usr/src/kernel/include/uapi/linux/errno.h:
-
-/opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/asm/errno.h:
-
-/tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/errno.h:
-
-/tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/errno-base.h:
-
 /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/sys/ioctl.h:
 
 /opt/poky/1.6.1/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi/usr/include/bits/ioctls.h:
@@ -280,6 +263,8 @@ csc_ex1.o: csc_ex1.c \
 /tftpboot/rootfs/usr/src/kernel/include/uapi/asm-generic/posix_types.h:
 
 /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/i2c.h:
+
+framebuffer_ex1.h:
 
 /tftpboot/rootfs/usr/src/kernel/include/uapi/linux/ipu.h:
 
