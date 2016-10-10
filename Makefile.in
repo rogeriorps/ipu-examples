@@ -10,5 +10,6 @@ all clean ipu-examples:
 @TARGET_MX6_TRUE@	cd mx6/resizing/example1 && $(MAKE) $@
 @TARGET_MX6_TRUE@	cd mx6/rotation/example1 && $(MAKE) $@
 @TARGET_MX6_TRUE@	cd mx6/framebuffer/example1 && $(MAKE) $@
+@TARGET_MX6_TRUE@	cd mx6/framebuffer/example2 && $(MAKE) $@
 
 .PHONY: all clean
