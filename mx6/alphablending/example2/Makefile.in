@@ -1,7 +1,9 @@
+CFLAGS ?= -g -O0
+
 all: ipu-examples
 
 ipu-examples: alpha_ex2.c
-	$(CC) -g -O0 -o alpha_ex2 alpha_ex2.c -I @prefix@/usr/src/kernel/include/uapi/ \
+	$(CC) $(CFLAGS) -o alpha_ex2 alpha_ex2.c -I @prefix@/usr/src/kernel/include/uapi/ \
 	-I @prefix@/usr/src/kernel/include/
 
 clean:

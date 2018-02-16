@@ -1,7 +1,9 @@
+CFLAGS ?= -g -O0
+
 all: ipu-examples
 
 ipu-examples: framebuffer_ex2.c
-	$(CC) -g -O0 -o framebuffer_ex2 framebuffer_ex2.c -I @prefix@/usr/src/kernel/include/uapi/ \
+	$(CC) $(CFLAGS) -o framebuffer_ex2 framebuffer_ex2.c -I @prefix@/usr/src/kernel/include/uapi/ \
 	-I @prefix@/usr/src/kernel/include/ -I @prefix@/usr/include/ -lm -lncurses
 
 clean:

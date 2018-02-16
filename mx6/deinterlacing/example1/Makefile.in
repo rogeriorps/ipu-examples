@@ -1,7 +1,9 @@
+CFLAGS ?= -g -O0
+
 all: ipu-examples
 
 ipu-examples: dint_ex1.c
-	$(CC) -g -O0 -o dint_ex1 dint_ex1.c -I @prefix@/usr/src/kernel/include/uapi/ \
+	$(CC) $(CFLAGS) -o dint_ex1 dint_ex1.c -I @prefix@/usr/src/kernel/include/uapi/ \
 	-I @prefix@/usr/src/kernel/include/
 
 clean:
